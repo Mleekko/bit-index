@@ -61,8 +61,8 @@ fn usage_scenario() {
 #[test]
 fn performance_find_remove_add() {
     let mut index = BitIndex::new();
-    let size = 4096usize;
-    let iterations = 4096usize;
+    let size = 8192usize;
+    let iterations = 8192usize;
 
     let start = Instant::now();
 

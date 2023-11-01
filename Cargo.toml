@@ -5,6 +5,8 @@ version = "0.1.0"
 
 
 [dependencies]
+sbor = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "v1.0.1" }
+scrypto = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "v1.0.1" }
 
 [dev-dependencies]
 
